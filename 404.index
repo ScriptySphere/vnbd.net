@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Page not found | Volunteer Network of Bangladesh</title>
+    <meta name="description" content="The page you are looking for does not exist." />
+
+    <link rel="icon" href="assets/logo/vnbd.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <main class="section" id="main">
+      <div class="container">
+        <div class="card" style="max-width: 820px; margin: 40px auto;">
+          <div style="display:flex; gap:14px; align-items:center;">
+            <img
+              src="assets/logo/vnbd.png"
+              alt="Volunteer Network of Bangladesh logo"
+              width="56"
+              height="56"
+              style="border-radius:14px; border:1px solid var(--border); background:#fff;"
+            />
+            <div>
+              <h1 style="margin:0 0 4px;">Page not found</h1>
+              <p class="muted" style="margin:0;">
+                This link may be broken, or the page may have moved.
+              </p>
+            </div>
+          </div>
+
+          <div style="margin-top:16px;">
+            <p class="muted" style="margin:0 0 14px;">
+              If you were trying to join VNBD, you can go to the join section from the home page.
+            </p>
+
+            <div style="display:flex; gap:12px; flex-wrap:wrap;">
+              <a class="btn btn--primary" href="./">Go to home</a>
+              <a class="btn btn--ghost" href="./#join">Go to join</a>
+            </div>
+          </div>
+
+          <p class="micro" style="margin-top:16px;">
+            Volunteer Network of Bangladesh is a voluntary, non political, non commercial platform.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
