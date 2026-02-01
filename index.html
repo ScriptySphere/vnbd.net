@@ -1,107 +1,406 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Voice Network for Bangladesh Democracy - A people-powered civic engagement network.">
-  <title>Home - Voice Network for Bangladesh Democracy</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <a href="#main-content" class="skip-to-main">Skip to main content</a>
-  
-  <!-- Header Navigation -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="index.html" class="site-logo">VNBD</a>
-      
-      <button class="mobile-menu-toggle" aria-label="Toggle menu">
-        ☰
-      </button>
-      
-      <nav class="site-nav" role="navigation">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="stories.html">Stories</a>
-        <a href="members.html">Members</a>
-        <a href="join.html">Join</a>
-        <a href="contact.html">Contact</a>
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Volunteer Network of Bangladesh</title>
+    <meta
+      name="description"
+      content="A voluntary, non political, non commercial platform to share voluntary impact, experiences, ideas, and reflections related to Bangladesh."
+    />
+
+    <meta property="og:title" content="Volunteer Network of Bangladesh" />
+    <meta
+      property="og:description"
+      content="A community space to share voluntary impact, ideas, and reflections for Bangladesh."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/logo/vnbd.png" />
+
+    <link rel="icon" href="assets/logo/vnbd.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="./" aria-label="Volunteer Network of Bangladesh home">
+          <img
+            class="brand__logo"
+            src="assets/logo/vnbd.png"
+            alt="Volunteer Network of Bangladesh logo"
+            width="44"
+            height="44"
+            loading="eager"
+          />
+          <span class="brand__text">
+            <span class="brand__name">Volunteer Network of Bangladesh</span>
+            <span class="brand__tagline">A civic space for voluntary impact and ideas</span>
+          </span>
+        </a>
+
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggle-label">Menu</span>
+          <span class="nav__toggle-icon" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a class="nav__link" href="#about">About</a>
+          <a class="nav__link" href="#what">What we do</a>
+          <a class="nav__link" href="#structure">Structure</a>
+          <a class="nav__link" href="#join">Join</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="nav__cta" id="joinCta" href="#join">Join via Google Form</a>
+        </div>
       </nav>
-    </div>
-  </header>
-  
-  <!-- Hero Section -->
-  <section class="page-hero">
-    <div class="container">
-      <h1>Voice Network for Bangladesh Democracy</h1>
-      <p>A growing community of people contributing time, ideas, and civic reflection for Bangladesh.</p>
-      <div style="margin-top: 2rem;">
-        <a href="join.html" class="btn btn-primary">Join the Network</a>
-        <a href="about.html" class="btn btn-secondary" style="margin-left: 1rem;">Learn More</a>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Main Content -->
-  <main id="main-content">
-    <section class="container" style="padding: 4rem 1.5rem;">
-      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-        <h2>Building Democracy Through Civic Engagement</h2>
-        <p>VNBD is a network of people across Bangladesh who are committed to strengthening democratic values through civic participation, community care, and collective action.</p>
-        
-        <div style="margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
-          <div>
-            <h3>Share Your Story</h3>
-            <p>Document your civic engagement experiences and inspire others.</p>
-            <a href="stories.html">View Stories →</a>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="pill">Voluntary • Non political • Non commercial</p>
+            <h1>Volunteer Network of Bangladesh</h1>
+            <p class="lead">
+              VNBD is an open community space where people share voluntary impact, experiences, ideas,
+              and reflections related to Bangladesh.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" id="heroJoinBtn" href="#join">Join the network</a>
+              <a class="btn btn--ghost" href="#what">See what VNBD is</a>
+            </div>
+
+            <p class="micro">
+              VNBD is not a charity, not a fundraising platform, and not a service delivery organisation.
+            </p>
           </div>
-          
-          <div>
-            <h3>Meet the Network</h3>
-            <p>Connect with contributors, moderators, and partners across Bangladesh.</p>
-            <a href="members.html">Browse Members →</a>
+
+          <div class="hero__card" aria-label="Quick summary">
+            <div class="hero__watermark" aria-hidden="true"></div>
+
+            <h2 class="h3">Why VNBD exists</h2>
+            <p>
+              Across Bangladesh, countless individuals contribute voluntarily. Many contributions remain
+              undocumented and disconnected. VNBD exists to recognise, connect, and amplify these efforts
+              through shared stories and responsible dialogue.
+            </p>
+
+            <div class="stats" role="list">
+              <div class="stat" role="listitem">
+                <div class="stat__num" data-count="1">0</div>
+                <div class="stat__label">Network, not an institution</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat__num" data-count="100">0</div>
+                <div class="stat__label">Voices we aim to amplify</div>
+              </div>
+              <div class="stat" role="listitem">
+                <div class="stat__num" data-count="64">0</div>
+                <div class="stat__label">Districts we want to include</div>
+              </div>
+            </div>
+
+            <div class="note">
+              <strong>Note</strong>
+              Participation is voluntary. There are no financial obligations or performance requirements.
+            </div>
           </div>
-          
-          <div>
-            <h3>Get Involved</h3>
-            <p>Join as a contributor and be part of this growing movement.</p>
-            <a href="join.html">Join Now →</a>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>About VNBD</h2>
+            <p class="muted">
+              A voluntary impact and idea sharing network for Bangladesh.
+            </p>
+          </div>
+
+          <div class="grid2">
+            <div class="card">
+              <h3>What VNBD is</h3>
+              <ul class="list">
+                <li>A voluntary impact and idea sharing network</li>
+                <li>A community driven dialogue platform</li>
+                <li>An inclusive space open to all citizens</li>
+              </ul>
+            </div>
+
+            <div class="card card--outline">
+              <h3>What VNBD is not</h3>
+              <ul class="list">
+                <li>Not a charity or NGO</li>
+                <li>Not a fundraising or donation platform</li>
+                <li>Not a political or partisan initiative</li>
+                <li>Not a service delivery or project implementation body</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-  
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Voice Network for Bangladesh Democracy</h3>
-          <p>A growing community of people contributing time, ideas, and civic reflection for Bangladesh.</p>
+      </section>
+
+      <section id="what" class="section section--soft">
+        <div class="container">
+          <div class="section__head">
+            <h2>What VNBD aims to do</h2>
+            <p class="muted">Simple, responsible, community centred.</p>
+          </div>
+
+          <div class="cards3">
+            <article class="card">
+              <h3>Share impact</h3>
+              <p>
+                Create a common platform for voluntary impact sharing so stories and lessons are not lost.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Encourage reflection</h3>
+              <p>
+                Encourage reflection and learning from lived experiences through respectful conversation.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Inspire civic responsibility</h3>
+              <p>
+                Inspire civic responsibility through shared stories, ideas, and practical perspectives.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Foster dialogue</h3>
+              <p>
+                Foster respectful dialogue across diverse backgrounds, with careful community moderation.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Build shared memory</h3>
+              <p>
+                Curate learnings and archive resources so future volunteers can build on what came before.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Stay independent</h3>
+              <p>
+                Remain non commercial and non partisan while staying open to broad civic participation.
+              </p>
+            </article>
+          </div>
         </div>
-        
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <p><a href="about.html">About Us</a></p>
-          <p><a href="stories.html">Community Stories</a></p>
-          <p><a href="members.html">Network Members</a></p>
-          <p><a href="join.html">Join the Network</a></p>
+      </section>
+
+      <section id="structure" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Organisational structure</h2>
+            <p class="muted">
+              Designed to be flexible, non hierarchical, and facilitative.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline__item">
+              <h3>Initiator and founding circle</h3>
+              <p>
+                Vision stewardship. Safeguards the founding values and supports coordination without authority.
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h3>Core coordination team</h3>
+              <p>
+                Platform facilitation and coordination. Maintains standards and supports transparency.
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h3>Community moderation team</h3>
+              <p>
+                Safe space and community care. Moderates discussions and addresses misinformation or abuse.
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h3>Content and documentation team</h3>
+              <p>
+                Knowledge and impact curation. Curates stories, documents learnings, and maintains archives.
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h3>Outreach and engagement team</h3>
+              <p>
+                Community growth and participation. Engages contributors and supports communication.
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h3>Open contributors</h3>
+              <p>
+                Idea and impact contributors. Share stories, join discussions, and propose improvements.
+              </p>
+            </div>
+          </div>
+
+          <div class="card callout">
+            <h3>Decision making</h3>
+            <p>
+              VNBD follows a consensus based decision making approach guided by dialogue, mutual respect,
+              transparency, and shared understanding.
+            </p>
+          </div>
         </div>
-        
-        <div class="footer-section">
-          <h3>Get in Touch</h3>
-          <p><a href="contact.html">Contact Us</a></p>
-          <p><a href="mailto:info@vnbd.org">info@vnbd.org</a></p>
+      </section>
+
+      <section id="join" class="section section--soft">
+        <div class="container">
+          <div class="section__head">
+            <h2>Join VNBD</h2>
+            <p class="muted">
+              Join to share impact stories, ideas, reflections, and community learnings.
+            </p>
+          </div>
+
+          <div class="grid2">
+            <div class="card">
+              <h3>Join via Google Form</h3>
+              <p>
+                Use the form to introduce yourself, share your focus areas, and tell us how you want to contribute.
+              </p>
+
+              <div class="join__actions">
+                <a class="btn btn--primary" id="googleFormBtn" href="#" target="_blank" rel="noopener noreferrer">
+                  Open join form
+                </a>
+                <button class="btn btn--ghost" id="copyJoinLinkBtn" type="button">
+                  Copy join link
+                </button>
+              </div>
+
+              <p class="micro">
+                VNBD does not collect donations and does not run fundraising through this site.
+              </p>
+            </div>
+
+            <div class="card card--outline">
+              <h3>Ways to contribute</h3>
+              <ul class="list">
+                <li>Submit a voluntary impact story</li>
+                <li>Share learning and reflections</li>
+                <li>Help curate community knowledge</li>
+                <li>Support moderation and safe dialogue</li>
+                <li>Invite thoughtful participation from your area</li>
+              </ul>
+
+              <div class="notice">
+                <strong>Participation is voluntary.</strong>
+                <span>You contribute based on your interest and availability.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contact</h2>
+            <p class="muted">Add your official contact details when ready.</p>
+          </div>
+
+          <div class="grid2">
+            <div class="card">
+              <h3>Contact details</h3>
+              <p class="muted">
+                Email and social links can be added later. Keep it simple and consistent.
+              </p>
+
+              <ul class="list">
+                <li>Email: <span class="mono">contact@vnbd.net</span></li>
+                <li>Facebook: <span class="mono">facebook.com/yourpage</span></li>
+              </ul>
+
+              <p class="micro">
+                If you are reporting abuse or misinformation, include links and screenshots if available.
+              </p>
+            </div>
+
+            <div class="card card--outline">
+              <h3>Quick message</h3>
+              <form id="contactForm" novalidate>
+                <label class="field">
+                  <span>Name</span>
+                  <input name="name" type="text" autocomplete="name" required />
+                </label>
+
+                <label class="field">
+                  <span>Email</span>
+                  <input name="email" type="email" autocomplete="email" required />
+                </label>
+
+                <label class="field">
+                  <span>Message</span>
+                  <textarea name="message" rows="5" required></textarea>
+                </label>
+
+                <div class="form__actions">
+                  <button class="btn btn--primary" type="submit">Copy message</button>
+                  <button class="btn btn--ghost" type="reset">Clear</button>
+                </div>
+
+                <p class="micro" id="contactHelp" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <img
+            class="footer__logo"
+            src="assets/logo/vnbd.png"
+            alt="Volunteer Network of Bangladesh logo"
+            width="36"
+            height="36"
+            loading="lazy"
+          />
+          <div>
+            <div class="footer__name">Volunteer Network of Bangladesh</div>
+            <div class="footer__muted">A civic space for voluntary impact and ideas</div>
+          </div>
+        </div>
+
+        <div class="footer__links" aria-label="Footer links">
+          <a href="#about">About</a>
+          <a href="#structure">Structure</a>
+          <a id="footerJoinLink" href="#join">Join</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer__fineprint">
+          <p class="micro">
+            Profiles and stories are shared voluntarily. VNBD does not verify every claim.
+          </p>
+          <p class="micro">
+            © <span id="year"></span> Volunteer Network of Bangladesh. All rights reserved.
+          </p>
         </div>
       </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2025 Voice Network for Bangladesh Democracy. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-  
-  <script src="/assets/js/app.js"></script>
-</body>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
