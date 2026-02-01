@@ -1,0 +1,388 @@
+{
+  "members": [
+    {
+      "id": "member-001",
+      "name": "Rina Chowdhury",
+      "role_type": "Core Team",
+      "district": "Dhaka",
+      "focus_areas": ["education", "youth leadership", "civic technology"],
+      "bio": "Rina has been working in civic engagement for over a decade, focusing on digital literacy and youth empowerment. She coordinates community workshops across Dhaka and believes in grassroots democracy through education.",
+      "join_date": "2023-03-15",
+      "visibility": "public",
+      "photo": "/assets/images/members/rina-chowdhury.jpg",
+      "social": {
+        "facebook": "https://facebook.com/rinachowdhury",
+        "linkedin": "https://linkedin.com/in/rinachowdhury",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-002",
+      "name": "Fozle Rahman",
+      "role_type": "Contributor",
+      "district": "Chittagong",
+      "focus_areas": ["environmental justice", "community care"],
+      "bio": "Passionate about environmental conservation and community resilience. Works with local groups to address climate challenges.",
+      "join_date": "2024-11-20",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-003",
+      "name": "Nadia Islam",
+      "role_type": "Moderator",
+      "district": "Sylhet",
+      "focus_areas": ["human rights", "civic technology", "public health"],
+      "bio": "Nadia is a human rights advocate who uses technology to amplify marginalised voices. She moderates discussions on civic participation and runs digital safety workshops for activists and community organisers.",
+      "join_date": "2023-07-10",
+      "visibility": "public",
+      "photo": "/assets/images/members/nadia-islam.jpg",
+      "social": {
+        "facebook": "https://facebook.com/nadiaislam",
+        "linkedin": "https://linkedin.com/in/nadiaislam",
+        "website": "https://nadiaislam.com"
+      }
+    },
+    {
+      "id": "member-004",
+      "name": "Imran Hossain",
+      "role_type": "Contributor",
+      "district": "Rajshahi",
+      "focus_areas": ["agriculture", "climate"],
+      "bio": "Working with farmers to implement sustainable agricultural practices and climate adaptation strategies.",
+      "join_date": "2024-01-05",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/imranhossain",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-005",
+      "name": "Sabrina Ahmed",
+      "role_type": "Partner Liaison",
+      "district": "Dhaka",
+      "focus_areas": ["education", "arts and culture", "youth leadership"],
+      "bio": "Sabrina bridges the gap between VNBD and educational institutions, cultural organisations, and youth networks. She has extensive experience in partnership development and believes in the power of collaborative civic action.",
+      "join_date": "2023-05-22",
+      "visibility": "public",
+      "photo": "/assets/images/members/sabrina-ahmed.jpg",
+      "social": {
+        "facebook": "https://facebook.com/sabrinaahmed",
+        "linkedin": "https://linkedin.com/in/sabrinaahmed",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-006",
+      "name": "Tariq Mahmud",
+      "role_type": "Core Team",
+      "district": "Khulna",
+      "focus_areas": ["environmental justice", "climate", "community care"],
+      "bio": "Tariq leads environmental initiatives in coastal regions, working directly with communities affected by climate change. His work focuses on building resilience and advocating for sustainable development policies.",
+      "join_date": "2023-02-18",
+      "visibility": "public",
+      "photo": "/assets/images/members/tariq-mahmud.jpg",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/tariqmahmud",
+        "website": "https://coastalresilience.org"
+      }
+    },
+    {
+      "id": "member-007",
+      "name": "Ayesha Begum",
+      "role_type": "Contributor",
+      "district": "Barisal",
+      "focus_areas": ["public health", "community care"],
+      "bio": "Community health worker focusing on maternal and child health in rural areas.",
+      "join_date": "2024-09-12",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-008",
+      "name": "Kamal Uddin",
+      "role_type": "Moderator",
+      "district": "Rangpur",
+      "focus_areas": ["education", "youth leadership"],
+      "bio": "Kamal facilitates youth forums and coordinates educational outreach programmes in northern Bangladesh. He is committed to creating spaces where young people can develop civic skills and engage with democratic processes.",
+      "join_date": "2023-09-30",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "https://facebook.com/kamaluddin",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-009",
+      "name": "Fatima Khan",
+      "role_type": "Contributor",
+      "district": "Dhaka",
+      "focus_areas": ["human rights", "gender equality"],
+      "bio": "Advocate for women's rights and gender equality in civic spaces.",
+      "join_date": "2024-10-08",
+      "visibility": "public",
+      "photo": "/assets/images/members/fatima-khan.jpg",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/fatimakhan",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-010",
+      "name": "Rashid Ali",
+      "role_type": "Partner Liaison",
+      "district": "Chittagong",
+      "focus_areas": ["civic technology", "education"],
+      "bio": "Rashid connects technology organisations with community initiatives, helping to build digital capacity for civic engagement. He works with universities and tech companies to create partnerships that benefit grassroots movements.",
+      "join_date": "2023-11-14",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/rashidali",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-011",
+      "name": "Sultana Parveen",
+      "role_type": "Contributor",
+      "district": "Mymensingh",
+      "focus_areas": ["animal welfare", "environmental justice"],
+      "bio": "Working to protect animal rights and promote ethical treatment of animals in rural communities.",
+      "join_date": "2024-12-03",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-012",
+      "name": "Jahangir Alam",
+      "role_type": "Core Team",
+      "district": "Sylhet",
+      "focus_areas": ["civic technology", "youth leadership", "education", "human rights"],
+      "bio": "Jahangir is a technologist and educator who builds digital tools for civic participation. He trains young activists in using technology safely and effectively, and develops open-source platforms for community organising.",
+      "join_date": "2023-04-20",
+      "visibility": "public",
+      "photo": "/assets/images/members/jahangir-alam.jpg",
+      "social": {
+        "facebook": "https://facebook.com/jahangiralam",
+        "linkedin": "https://linkedin.com/in/jahangiralam",
+        "website": "https://jahangir.dev"
+      }
+    },
+    {
+      "id": "member-013",
+      "name": "Dilara Haque",
+      "role_type": "Moderator",
+      "district": "Dhaka",
+      "focus_areas": ["arts and culture", "community care"],
+      "bio": "Dilara uses arts and culture as tools for community building and civic dialogue. She organises cultural events that bring together diverse voices and create spaces for democratic expression through creative means.",
+      "join_date": "2024-02-28",
+      "visibility": "public",
+      "photo": "/assets/images/members/dilara-haque.jpg",
+      "social": {
+        "facebook": "https://facebook.com/dilarahaque",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-014",
+      "name": "Mizanur Rahman",
+      "role_type": "Contributor",
+      "district": "Comilla",
+      "focus_areas": ["education"],
+      "bio": "Teacher committed to improving educational access and quality in underserved areas.",
+      "join_date": "2024-06-15",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-015",
+      "name": "Shahana Yasmin",
+      "role_type": "Contributor",
+      "district": "Jessore",
+      "focus_areas": ["public health", "gender equality", "community care"],
+      "bio": "Public health professional working on women's health initiatives and health equity programmes.",
+      "join_date": "2024-08-22",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/shahanayasmin",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-016",
+      "name": "Anwar Hossain",
+      "role_type": "Partner Liaison",
+      "district": "Bogra",
+      "focus_areas": ["agriculture", "climate", "environmental justice"],
+      "bio": "Anwar collaborates with agricultural cooperatives and environmental groups to promote sustainable farming and climate resilience. He brings together farmers, scientists, and policymakers to address rural development challenges.",
+      "join_date": "2024-01-10",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": "https://sustainablefarming-bd.org"
+      }
+    },
+    {
+      "id": "member-017",
+      "name": "Roksana Begum",
+      "role_type": "Contributor",
+      "district": "Dinajpur",
+      "focus_areas": ["education", "youth leadership"],
+      "bio": "Youth mentor helping young people develop leadership skills and civic awareness.",
+      "join_date": "2024-11-05",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-018",
+      "name": "Munir Ahmed",
+      "role_type": "Contributor",
+      "district": "Khulna",
+      "focus_areas": ["climate", "environmental justice"],
+      "bio": "Environmental activist working on coastal protection and mangrove conservation in the Sundarbans region.",
+      "join_date": "2024-07-18",
+      "visibility": "public",
+      "photo": "/assets/images/members/munir-ahmed.jpg",
+      "social": {
+        "facebook": "https://facebook.com/munirahmed",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-019",
+      "name": "Nasima Akhter",
+      "role_type": "Moderator",
+      "district": "Rajshahi",
+      "focus_areas": ["gender equality", "human rights", "education"],
+      "bio": "Nasima moderates discussions on gender equity and women's participation in civic life. She works to create inclusive spaces where women's voices are heard and valued in democratic processes.",
+      "join_date": "2023-08-05",
+      "visibility": "public",
+      "photo": "/assets/images/members/nasima-akhter.jpg",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/nasimaakhter",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-020",
+      "name": "Hafizur Rahman",
+      "role_type": "Contributor",
+      "district": "Pabna",
+      "focus_areas": ["civic technology"],
+      "bio": "Software developer building digital tools for community organisation and civic participation.",
+      "join_date": "2024-09-30",
+      "visibility": "limited",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-021",
+      "name": "Laila Hasan",
+      "role_type": "Core Team",
+      "district": "Dhaka",
+      "focus_areas": ["human rights", "civic technology", "youth leadership"],
+      "bio": "Laila co-founded VNBD's digital advocacy programme and leads efforts to document human rights issues through community reporting. She trains citizen journalists and manages the network's online platforms.",
+      "join_date": "2023-01-10",
+      "visibility": "public",
+      "photo": "/assets/images/members/laila-hasan.jpg",
+      "social": {
+        "facebook": "https://facebook.com/lailahasan",
+        "linkedin": "https://linkedin.com/in/lailahasan",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-022",
+      "name": "Zahirul Islam",
+      "role_type": "Contributor",
+      "district": "Narayanganj",
+      "focus_areas": ["labour rights", "community care"],
+      "bio": "Trade unionist advocating for workers' rights and fair labour practices.",
+      "join_date": "2024-05-14",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "",
+        "website": ""
+      }
+    },
+    {
+      "id": "member-023",
+      "name": "Taslima Khatun",
+      "role_type": "Contributor",
+      "district": "Gazipur",
+      "focus_areas": ["arts and culture", "youth leadership"],
+      "bio": "Artist using creative expression to engage youth in civic dialogue and community storytelling.",
+      "join_date": "2024-10-20",
+      "visibility": "public",
+      "photo": "/assets/images/members/taslima-khatun.jpg",
+      "social": {
+        "facebook": "https://facebook.com/taslimakhatun",
+        "linkedin": "",
+        "website": "https://taslima-art.com"
+      }
+    },
+    {
+      "id": "member-024",
+      "name": "Masud Parvez",
+      "role_type": "Partner Liaison",
+      "district": "Chittagong",
+      "focus_areas": ["education", "civic technology"],
+      "bio": "Masud connects educational institutions with civic tech initiatives, helping schools and universities integrate democratic values and digital citizenship into their curricula. He coordinates student engagement programmes across the region.",
+      "join_date": "2024-03-12",
+      "visibility": "public",
+      "photo": "",
+      "social": {
+        "facebook": "",
+        "linkedin": "https://linkedin.com/in/masudparvez",
+        "website": ""
+      }
+    }
+  ]
+}

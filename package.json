@@ -1,0 +1,32 @@
+{
+  "name": "vnbd-website",
+  "version": "1.0.0",
+  "description": "Voice Network for Bangladesh Democracy website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "serve": "npx http-server -p 8000",
+    "minify-css": "npx csso assets/css/style.css -o assets/css/style.min.css",
+    "minify-js": "npx terser assets/js/app.js -o assets/js/app.min.js -c -m",
+    "minify": "npm run minify-css && npm run minify-js",
+    "validate-html": "npx html-validate '*.html'",
+    "validate-json": "npx jsonlint assets/data/*.json",
+    "lighthouse": "npx lighthouse http://localhost:8000/members.html --view",
+    "test": "npm run validate-html && npm run validate-json"
+  },
+  "keywords": [
+    "civic-engagement",
+    "democracy",
+    "bangladesh",
+    "community",
+    "network"
+  ],
+  "author": "Voice Network for Bangladesh Democracy",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vnbd/website"
+  },
+  "homepage": "https://vnbd.org"
+}
