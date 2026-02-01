@@ -1,0 +1,30 @@
+<!-- Member Card Template Component -->
+<!-- This template is used by JavaScript to dynamically render member cards -->
+
+<div class="member-card" role="button" tabindex="0" aria-label="View profile of {{name}}, {{roleType}}">
+  <img src="{{avatar}}" alt="{{name}} avatar" class="member-avatar">
+  
+  <div class="member-header">
+    <h3 class="member-name">{{name}}</h3>
+    <span class="role-badge {{roleBadgeClass}}">{{roleType}}</span>
+  </div>
+  
+  <p class="member-district">{{district}}</p>
+  
+  <div class="member-focus-areas">
+    <!-- Focus area tags inserted here -->
+    {{focusAreas}}
+  </div>
+  
+  <p class="member-bio">{{bio}}</p>
+  
+  <p class="join-date">{{joinDate}}</p>
+  
+  <div class="auto-badges">
+    <!-- Auto-generated badges inserted here -->
+    {{badges}}
+  </div>
+  
+  <!-- Limited profile label (if applicable) -->
+  {{limitedLabel}}
+</div>
